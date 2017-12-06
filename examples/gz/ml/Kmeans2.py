@@ -10,7 +10,7 @@ x_values = []
 y_values = []
 vector_values = []
 
-for i in xrange(num_vectors):
+for i in range(num_vectors):
   if np.random.random() > 0.5:
     x_values.append(np.random.normal(0.4, 0.7))
     y_values.append(np.random.normal(0.2, 0.8))

@@ -14,10 +14,10 @@ pixels,real_values = mnist_images.train.next_batch(10)
 #print pixels, real_values
 #it also returns two lists, the matrix of the pixels loaded, and the list that contains the real values loaded:
 
-print "list of values loaded ",real_values
+print("list of values loaded ",real_values)
 example_to_visualize = 5
-print "element N " + str(example_to_visualize + 1)\
-                    + " of the list plotted"
+print("element N " + str(example_to_visualize + 1)\
+                    + " of the list plotted")
 image = pixels[example_to_visualize,:]
 #print image
 image = np.reshape(image,[28,28])
